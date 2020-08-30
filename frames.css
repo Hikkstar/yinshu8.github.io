@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@keyframes box {
+  0%{
+        width: 0;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 25%;
+    }
+    75%{
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.block1{
+  animation: box 1s ease 0.6s infinite both;
+}
+.block2{
+  animation: box 2s ease 0.6s infinite both;
+}
+.block3{
+  animation: box 3s ease 0.6s infinite both;
+}
+.block4{
+  animation: box 4s ease 0.6s infinite both;
+}
+.block5{
+  animation: box 5s ease 0.6s infinite both;
+}
+.block6{
+  animation: box 6s ease 0.6s infinite both;
+}
+.block7{
+  animation: box 7s ease 0.6s infinite both;
+}
+.block8{
+  animation: box 8s ease 0.6s infinite both;
+}
+
+
+
+.block1{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: red;
+  width: 50px;
+  height: 50px;
+}
+.block2{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: yellow;
+  width: 50px;
+  height: 50px;
+}
+.block3{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: green;
+  width: 50px;
+  height: 50px;
+}
+.block4{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: blue;
+  width: 50px;
+  height: 50px;
+}
+.block5{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: pink;
+  width: 50px;
+  height: 50px;
+}
+.block6{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: orange;
+  width: 50px;
+  height: 50px;
+}
+.block7{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: skyblue;
+  width: 50px;
+  height: 50px;
+}
+.block8{
+  /* width: 100px; height: 100px; */
+  /* object-fit: contain; */
+  background: lime;
+  width: 50px;
+  height: 50px;
+}
